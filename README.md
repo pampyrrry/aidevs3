@@ -1,13 +1,13 @@
 # AI DEVS 3![AI DEVS 3](https://cdn.prod.website-files.com/667438c9537d1149a7ed7aa0/66746d5a83ebf33aace3a9f2_ai-devs_logo-main.svg)
-### Repozytorium odnosi się do kursu AI DEVS 3 - [aidevs.pl](https://www.aidevs.pl/)
-## Kurs realizowany jest w języku Python
+## Repozytorium odnosi się do kursu AI DEVS 3 - [aidevs.pl](https://www.aidevs.pl/)
+#### Kurs realizowany jest w języku Python
 
 ### Link do repozytorium: [https://github.com/pampyrrry/aidevs3.git](https://github.com/pampyrrry/aidevs3.git)
 
 ### Lista modułów konieczna do realizowania zadań znajduje się w pliku requirements.txt  
 - requirements.txt
 
-Aby zainstalować zależności wykonaj:  
+## Instalacja:  
 
 ``` pip install -r requirements.txt ```
 
