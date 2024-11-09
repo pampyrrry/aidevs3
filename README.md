@@ -1,26 +1,58 @@
-# AI DEVS 3![AI DEVS 3](https://cdn.prod.website-files.com/667438c9537d1149a7ed7aa0/66746d5a83ebf33aace3a9f2_ai-devs_logo-main.svg)
-## Repozytorium odnosi się do kursu AI DEVS 3 - [aidevs.pl](https://www.aidevs.pl/)
-#### Kurs realizowany jest w języku Python
+# AI DEVS 3 ![AI DEVS 3](https://cdn.prod.website-files.com/667438c9537d1149a7ed7aa0/66746d5a83ebf33aace3a9f2_ai-devs_logo-main.svg)
 
-### Link do repozytorium: [https://github.com/pampyrrry/aidevs3.git](https://github.com/pampyrrry/aidevs3.git)
+## Opis projektu
+Repozytorium dotyczy kursu **AI DEVS 3** prowadzonego w języku Python - więcej informacji na stronie: [aidevs.pl](https://www.aidevs.pl/).
 
-### Lista modułów konieczna do realizowania zadań znajduje się w pliku requirements.txt  
-- requirements.txt
+### Link do repozytorium
+Kurs oraz zadania dostępne są na GitHubie: [https://github.com/pampyrrry/aidevs3.git](https://github.com/pampyrrry/aidevs3.git)
 
-## Instalacja:  
+---
 
-``` pip install -r requirements.txt ```
+## Struktura repozytorium
+- **Pliki serwisowe**: Wspólne pliki, dostępne na gałęzi `master`.
+- **Pliki z zadaniami**: Pliki związane z poszczególnymi lekcjami znajdują się na osobnych gałęziach nazwanych zgodnie z nazwą lekcji.
+
+## Wymagania
+Lista modułów wymaganych do realizacji zadań znajduje się w pliku `requirements.txt`.
+
+## Instalacja
+Aby zainstalować wymagane pakiety, użyj poniższej komendy:
+```bash
+pip install -r requirements.txt
+
+---
 
 ### Plik do testowania połączenia z AIDevs
 
 `verify.py` 
 
+---
+
 ### Przydatne komendy
- ``` python -m venv nazwa_folderu ```
 
-``` pip install -r requirements.txt ``` instalowanie pakietów z pliku requirements
+- Tworzenie wirtualnego środowiska:
 
-``` pip freeze > requirements.txt ``` - tworzenie pliku z zależnościami 
+  ```bash
+  python -m venv nazwa_folderu 
 
-``` pip install python-dotenv ``` - pakiet do zmiennych środowiskowych z pliku .env
+
+- Instalowanie pakietów z pliku requirements.txt:
+
+	```bash
+	pip install -r requirements.txt ```
+
+- Tworzenie pliku requirements.txt z aktualnie zainstalowanymi pakietami:
+
+	```bash 
+	pip freeze > requirements.txt
+
+- Instalacja pakietu python-dotenv (do zarządzania zmiennymi środowiskowymi z pliku .env):
+
+	```bash
+	pip install python-dotenv
+
+
+---
+Jeśli masz jakiekolwiek pytania, sugestie lub chcesz zgłosić zmiany do repozytorium, zapraszam do kontaktu!
+
 

@@ -1,5 +1,6 @@
 import os
 import requests
+import datetime
 
 class DownloadFile:
     def __init__(self, url: str):
@@ -21,14 +22,17 @@ class DownloadFile:
                     for chunk in response.iter_content(chunk_size=8192):
                         file.write(chunk)
             print(f"Pobrano i zapisano plik jako {self.local_filename}")
+            return self.filename
         else:
-            print("Plik już istnieje, pomijam pobieranie.")
+            print(f"Plik --{self.filename}-- już istnieje, pomijam pobieranie.")
+            return self.local_filename
 
     def download_chunks_file(self, chunk_size: int = 8192):
         chunk_number = 1
-
+        print("Download chunks file")
         with requests.get(self.url, stream=True) as response:
             response.raise_for_status()
+            
             for chunk in response.iter_content(chunk_size=chunk_size):
                 if chunk:
                     # Tworzymy unikalną nazwę pliku dla każdego "chunka"
