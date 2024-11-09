@@ -1,6 +1,7 @@
 .git/
 /personal
 /venv
+downloads/
 __pycache__/
 *.pyc
 *.pyo
