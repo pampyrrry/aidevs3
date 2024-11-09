@@ -27,10 +27,6 @@ Aby zainstalować wymagane pakiety, użyj poniższej komendy:
 pip install -r requirements.txt''' 
 ```
 
-#### Plik do testowania połączenia z AIDevs
-
-### `verify.py`
-
 ### Przydatne komendy
 
 - Tworzenie wirtualnego środowiska:
