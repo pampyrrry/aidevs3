@@ -2,6 +2,7 @@
 /personal
 /venv
 downloads/
+docker_obrazy/
 __pycache__/
 *.pyc
 *.pyo
