@@ -26,3 +26,10 @@ class OpenAIAssistant:
             "content": prompt
         }])
         return completion.choices[0].message.content
+    
+    def transcription(self, file_path:str, model: str="whisper-1"):
+        transcription = self.assistant.audio.transcriptions.create(
+                model=model,
+                file=file_path
+                )
+        return transcription.text
